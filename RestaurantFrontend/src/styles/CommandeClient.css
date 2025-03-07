@@ -1,0 +1,58 @@
+/* Style du tableau */
+table {
+  width: 100%; /* Ajuste la largeur du tableau */
+  margin: 50px auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+/* En-tête du tableau */
+thead {
+  background-color: #bf9064;
+  color: white;
+  font-weight: bold;
+}
+
+th {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Lignes du tableau */
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+/* Centrage du texte */
+.text-center {
+  text-align: center;
+}
+
+/* Espacement autour du tableau */
+.container {
+  margin-top: 50px; /* Pour éviter le chevauchement avec le header */
+  padding: 50px;
+  max-width: 1300px;
+  justify-content: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+}

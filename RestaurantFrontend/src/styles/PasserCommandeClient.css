@@ -1,0 +1,125 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    min-height: 100vh; /* Centrer verticalement */
+    padding-left: 470px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Catégories et menus */
+.category-container {
+    margin-bottom: 15px;
+}
+
+.category-title {
+    cursor: pointer;
+    background-color: #ffcc80;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #fb9447;
+    font-weight: bold;
+    transition: background 0.3s;
+    text-align: center;
+    color:#694b30;
+}
+
+.category-title:hover {
+    background-color: #ffa726;
+}
+
+.menu-items {
+    display: none;
+    padding: 10px;
+    border-left: 3px solid #fb9447;
+    margin-top: 5px;
+    background: #fff3e0;
+    border-radius: 5px;
+}
+
+.menu-items.show {
+    display: block;
+}
+
+.menu-items div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-items label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-items input[type='number'] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Adresse */
+.address-container {
+    margin-top: 20px;
+}
+
+.address-container label {
+    font-weight: bold;
+}
+
+.address-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a5765e;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Bouton de commande */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #fb9447;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #f57618;
+}
+
+.button-container button:active {
+    background-color: #d26000;
+}
+
+/* Message de confirmation */
+.p-container {
+    text-align: center;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}

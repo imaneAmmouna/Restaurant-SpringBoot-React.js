@@ -1,0 +1,92 @@
+/* Style général de la page */
+.bodyCategories {
+  text-align: center;
+  padding: 180px;
+  min-height: 100vh;
+}
+
+/* Titre principal */
+.bodyCategories h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style du formulaire */
+.formCategorie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Label */
+.formCategorie label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Champ de saisie */
+.formCategorie input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s ease-in-out;
+}
+
+.formCategorie input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Bouton */
+.formCategorie button {
+  padding: 10px 15px;
+  background-color: #8b5e3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+}
+
+.formCategorie button:hover {
+  background-color: #6e482a;
+}
+
+/* Message de retour */
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message:empty {
+  display: none;
+}
+
+/* Message de succès */
+.message:contains("Catégorie ajoutée avec succès") {
+  color: green;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+/* Message d'erreur */
+.message:contains("Erreur") {
+  color: red;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}

@@ -1,0 +1,66 @@
+/* Styles pour la page de connexion */
+.se-connecter-page {
+    background-color: #bf9064;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.se-connecter-page .message-affichee{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    background: white;
+    border-radius: 10px;
+    justify-content: center;
+    width: 120%;
+}
+
+/* Conteneur du formulaire */
+.loginContent {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Titre du formulaire */
+.loginTitre h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #8b5e3b;
+}
+
+/* Bouton de soumission */
+.input-group button {
+    background-color: #8b5e3b;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #6e482a;
+}
+
+.text-center a {
+  color: #8b5e3b;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.text-center a:hover {
+  color: #6d4829; /* Une teinte plus foncée au survol */
+  text-decoration: underline;
+}

@@ -1,0 +1,103 @@
+/* Style général pour la page PanierClient */
+.panier-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.panier-container h2 {
+  margin-bottom: 20px;
+}
+
+.panier-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.panier-item-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.panier-item-info {
+  flex: 1;
+}
+
+.panier-item-info h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.panier-item-info p {
+  margin: 5px 0;
+}
+
+.button-panier {
+  background-color: #bf9064;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.button-panier button:hover {
+  background-color: #694b30;
+}
+
+.button-panier-confirmer {
+  background-color: #bf9064;
+  color: white;
+  border: none;
+  margin-left: 90px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.button-panier button:hover {
+  background-color: #694b30;
+}
+
+.panier-total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* PanierClient.css ou MenuCarouselClient.css */
+.message-ajout {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Adresse */
+.address-container {
+    margin-top: 20px;
+}
+
+.address-container label {
+    font-weight: bold;
+}
+
+.address-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a5765e;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}

@@ -1,0 +1,105 @@
+.profile-container {
+  max-width: 800px;
+  margin: 80px auto; /* Centre le profil et ajoute un espace sous le header */
+  padding: 20px;
+  background-color: #f9f9f9; /* Fond clair */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  text-align: center;
+
+   /* Ajoute ces lignes pour centrer verticalement */
+    position: absolute;
+    left: 50%;
+    width:600px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.profile-container h2 {
+  color: #bf9064; /* Marron du header */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-container p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.profile-container strong {
+  color: #694b30; /* Marron foncé */
+}
+
+.profile-body{
+background: linear-gradient(135deg, #694b30, #dfb77a, #a5765e);
+min-height: 100vh;
+}
+
+
+/* Styles pour les boutons */
+.edit-button, .save-button, .cancel-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.edit-button {
+  background-color: #bf9064;
+  color: white;
+}
+
+.save-button {
+  background-color: #694b30;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #dfb77a;
+  color: white;
+}
+
+.edit-button:hover, .save-button:hover, .cancel-button:hover {
+  opacity: 0.8;
+}
+
+/* Styles pour les erreurs */
+.profile-container p.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+.profile-container form label {
+  font-size: 16px;
+  color: #694b30; /* Marron foncé */
+  margin-bottom: 5px;
+}
+
+.profile-container form input {
+  width: 50%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.profile-container form div {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Styles pour le formulaire de modification */
+.profile-container form {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
