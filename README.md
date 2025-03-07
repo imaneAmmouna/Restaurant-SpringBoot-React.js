@@ -153,4 +153,5 @@ Les **livreurs** sont responsables de la livraison des commandes aux clients. Le
 #### 5.4 **Profil du livreur**
 - Le livreur peut accéder à son **profil** pour consulter ses informations personnelles.
 
+![Logo du restaurant](./public/images/logo.png)
 
